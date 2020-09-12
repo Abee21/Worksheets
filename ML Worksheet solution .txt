@@ -1,0 +1,58 @@
+
+1 - C 
+
+2- D
+
+3- B
+
+4- C
+
+5- A
+
+7 - B 
+
+8- B
+
+9- D
+
+10- A,D
+
+
+Answer 11-
+ Outlier -  An outlier is a data point that differs significantly from other observations.Due to variability in the measurement or it may indicate experimental error; the latter are sometimes excluded from the data set.
+
+IQR is used to measure variability by dividing a data set into quartiles. The data is sorted in ascending order and split into 4 equal parts. Q1, Q2, Q3 called first, second and third quartiles are the values which separate the 4 equal parts.
+*Q1 represents the 25th percentile of the data.
+*Q2 represents the 50th percentile of the data.
+*Q3 represents the 75th percentile of the data.
+If a dataset has 2n / 2n+1 data points, then
+Q1 = median of the dataset.
+Q2 = median of n smallest data points.
+Q3 = median of n highest data points.
+
+IQR is the range between the first and the third quartiles namely Q1 and Q3: IQR = Q3 – Q1. The data points which fall below Q1 – 1.5 IQR or above Q3 + 1.5 IQR are outliers.
+
+
+Answer 12- 
+
+                                  BAGGING                                                   BOOSTING
+                         1    Simplest way of combining predictions that               1- A way of combining predictions that
+                              belong to the same type.                                    belong to the different types.
+                         2    Aim to decrease variance, not bias.                      2- Aim to decrease bias, not variance.
+                         3    Bagging tries to solve over-fitting problem.             3- Boosting tries to reduce bias.
+
+Answer 13- The adjusted R-squared is a modified version of R-squared that has been adjusted for the number of predictors in the model. The adjusted R-squared increases only if the new term improves the model more than would be expected by chance.It decreases when a predictor improves the model by less than expected by chance.
+
+Answer 14- Normalization-
+Normalization usually rescales features to[0,1].It will be useful when we are sure enough that there are no anomalies (i.e. outliers) with extremely large or small values. For example, in a recommender system, the ratings made by users are limited to a small finite set like{1,2,3,4,5}.
+
+Standardization-
+Standardization is widely used as a preprocessing step in many learning algorithms to rescale the features to zero-mean and unit-variance.
+
+Answer 15- Cross-validation is a technique in which we train our model using the subset of the data-set and then evaluate using the complementary subset of the data-set.
+Advantages of Cross Validation-
+
+ Reduces Overfitting: In Cross Validation, we split the dataset into multiple folds and train the algorithm on different folds. This prevents our model from overfitting the training dataset. So, in this way, the model attains the generalization capabilities which is a good sign of a robust algorithm.
+
+Disadvantages of Cross Validation-
+Needs Expensive Computation: Cross Validation is computationally very expensive in terms of processing power required.
