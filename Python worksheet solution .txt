@@ -1,0 +1,23 @@
+1 - B 
+2 - C
+3 - A
+4 - A
+5 - C
+6 - C
+7 - C
+8-  B 
+9 - D
+10 -B
+
+
+Ans 11 - 
+
+List - A list is a data structure in python that is a mutable or changable sequence element.
+Tuple- It is a collection of object which are immutable, It is parentheses.
+sets - A sets is an unorderd collection datatype that is iterable,mutable and has no dublicats elements.
+Dictionory - A dictionaries are python's implementation of data structure that is more genrally known as an associative array.It consist of a collection of key value pair maps the key to its associated value.
+
+
+Ans 12-  No, strings are not mutable.
+
+Ans 13-  The ord() function in Python accepts a string of length 1 as an argument and returns the unicode code point representation of the passed argument.For example ord('B') returns 66 which is a unicode code point value of character 'B'.
