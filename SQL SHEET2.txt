@@ -1,0 +1,85 @@
+Ans1-
+
+CREATE TABLE Customers
+(
+CUSTOMERNAME Varchar(50),
+CONTACTLASTNAME Varchar(50),O
+CONTACTFIRSTNAME Varchar(50),
+PHONE int,
+ADDRESS Varchar(100),
+CITY Varchar(10),
+POSTALCODE int,
+COUNTRY Varchar(50),
+RPEN int,
+CREDITLIMIT int,
+);
+
+Ans 2- 
+
+CREATE TABLE Orders
+(
+ORDERNUMBER int,
+ORDERDATE DATE,
+REQUIREDDATE DATE,
+SHIPPEDDATE DATE,
+COMMENT Varchar(100),
+CUSTOMERNAME varchar(20),
+);
+
+Ans3- 
+select * from Orders;
+
+Ans 4- select comment from order;
+
+Ans 6- select employeNumber, lastName, firstName from employee,
+Ans 7- Select CustomerNAME, OrderNumber,FROM Customers JOIN Orders;
+Ans9-select sum(payment) from payments;
+Select OrderDate,FROM Orders JOIN Payment;
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0)
