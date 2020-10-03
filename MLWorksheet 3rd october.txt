@@ -1,0 +1,24 @@
+1-C
+2-A,B
+3-C
+4-C
+5-B
+6-B,C
+7-C
+8-A
+
+Ans 10- The adjusted R2 will penalize you for adding independent variables (K in the equation) that do not fit the model. In regression analysis, it can be tempting to add more variables to the data as you think of them. Some of those variables will be significant, but you can’t be sure that significance is just by chance.The adjusted R2 will compensate for this by that penalizing you for those extra variables.While values are usually positive, they can be negative as well. This could happen if your R2 is zero; After the adjustment, the value can dip below zero. This usually indicates that your model is a poor fit for your data. Other problems with your model can also cause sub-zero values, such as not putting a constant term in your model.
+
+Ans 11- Lasso is a modification of linear regression, where the model is penalized for the sum of absolute values of the weights.
+ 
+        Ridge takes a step further and penalizes the model for the sum of squared value of the weights. Thus, the weights not only tend to have smaller absolute                values and more evenly distributed, but also tend to be close to zeros.
+Ans 12 - The Variance Inflation Factor (VIF) is a measure of colinearity among predictor variables within a multiple regression. It is calculated by taking the the ratio of the variance of all a given model's betas divide by the variane of a single beta if it were fit alone.
+Ans 13- Normalization is a technique often applied as part of data preparation for machine learning. The goal of normalization is to change the values of numeric columns in the dataset to a common scale, without distorting differences in the ranges of values.It is required only when features have different ranges.
+Ans15-
+
+Senstivity=True positve /True Positive+False Negative=0.95
+Specificity=True Negative/False positive+True Negative=0.82
+Precision= True positive/True Positive+False positive =0.8
+recall=True positive/True Positive +False Negative=0.95
+Accuracy =True positive+True Negative/True positive+True Negtive+Fase Positive+ False Negative =0.5
+
