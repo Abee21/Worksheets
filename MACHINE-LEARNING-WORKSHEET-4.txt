@@ -1,0 +1,32 @@
+1- A,B
+2-C
+6-A
+7-B
+8-B 
+11-Most of the time ,dataset will contain features highly varying in magnitudes, units and range. But since, most of the machine learning algorithms use Eucledian distance between two data points in their computations.To supress this effect, we need to bring all features to the same level of magnitudes. This can be acheived by scaling.
+ Types of scalling -
+1-Standardisation.
+2-Min-Max Scaling.
+
+13-Standard accuracy is defined as the ratio of correct classifications to the number of classifications done.
+
+accuracy:=correct classificationsnumber of classifications
+
+It is thus an overall measure over all classes and as we'll shortly see it's not a good measure to tell an oracle apart from an actual useful test. An oracle is a classification function that returns a random guess for each sample. Likewise, we want to be able to rate the classification performance of our classification function. Accuracy can be a useful measure if we have the same amount of samples per class but if we have an imbalanced set of samples accuracy isn't useful at all. Even more so, a test can have a high accuracy but actually perform worse than a test with a lower accuracy.
+
+If we have a distribution of samples such that 90% of samples belong to class A, 5% belonging to B and another 5% belonging to C then the following classification function will have an accuracy of 0.9
+classify(sample):={Aif ⊤
+
+Yet, it is obvious given that we know how classify works that this it can not tell the classes apart at all. Likewise, we can construct a classification function
+
+classify(sample):=guess⎧⎩⎨ABCwith p =0.96with p =0.02with p =0.02
+
+which has an accuracy of 0.96⋅0.9+0.02⋅0.05⋅2=0.866 and will not always predict A, but still given that we know how classify works it is obvious that it can not tell classes apart. Accuracy in this case only tells us how good our classification function is at guessing. This means that accuracy is not a good measure to tell an oracle apart from a useful test.
+
+Ans 14- F score is a measure of a test's accuracy. It is calculated from the precision and recall of the test, where the precision is the number of correctly identified positive results divided by the number of all positive results, including those not identified correctly, and the recall is the number of correctly identified positive results divided by the number of all samples that should have been identified as positive.
+F1 = 2*((precision*recall)/(precision+recall))
+
+Ans 15- 
+Transform method - The transform() method will just replace the NaNs in the column with the newly calculated value, and return the new dataset.
+Fit method -In this method the mean of all the values in the column to be used to replace all the NaNs in that column, the Imputer has to calculate the mean first. This step of calculating that value is called the fit() method.
+ The fit_transform() - The fit_transform() method will do both the things internally and makes it easy for us by just exposing one single method. But there are instances where you want to call only the fit() method and only the transform() method.
