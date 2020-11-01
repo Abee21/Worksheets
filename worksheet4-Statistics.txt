@@ -1,0 +1,26 @@
+1-A
+2-A
+3-B
+4-D
+5-C
+6-B
+7-B
+8-A
+9-C
+10-A normal (or Gaussian or Gauss or Laplace–Gauss) distribution is a type of continuous probability distribution for a real-valued random variable. The standard normal distribution has two parameters: the mean and the standard deviation. For a normal distribution, 68% of the observations are within +/- one standard deviation of the mean, 95% are within +/- two standard deviations, and 99.7% are within +- three standard deviations.
+
+11-Their are 5 ways to handel missing data.
+
+1- Deleting Rows-This method commonly used to handle the null values. Here, we either delete a particular row if it has a null value for a particular feature and a particular column if it has more than 70-75% of missing values.
+2-Replacing With Mean/Median/Mode-This strategy can be applied on a feature which has numeric data like the age of a person or the ticket fare. We can calculate the mean, median or mode of the feature and replace it with the missing values. 
+3-Assigning An Unique Category-A categorical feature will have a definite number of possibilities, such as gender, for example. Since they have a definite number of classes, we can assign another class for the missing values. Here, the features Cabin and Embarked have missing values which can be replaced with a new category, say, U for ‘unknown’.
+4-Predicting The Missing Values-Using the features which do not have missing values, we can predict the nulls with the help of a machine learning algorithm. This method may result in better accuracy, unless a missing value is expected to have a very high variance. We will be using linear regression to replace the nulls in the feature ‘age’, using other available features.
+5-Using Algorithms Which Support Missing Values-KNN is a machine learning algorithm which works on the principle of distance measure. This algorithm can be used when there are nulls present in the dataset. While the algorithm is applied, KNN considers the missing values by taking the majority of the K nearest values. In this particular dataset, taking into account the person’s age, sex, class etc, we will assume that people having same data for the above mentioned features will have the same kind of fare.
+
+12-A/B testing (also known as split testing) is a process of showing two variants of the same web page to different segments of website visitors at the same time and comparing which variant drives more conversions.
+
+14-
+Linear regression is a basic and commonly used type of predictive analysis.  The overall idea of regression is to examine two things:does a set of predictor variables do a good job in predicting an outcome (dependent) variable? Which variables in particular are significant predictors of the outcome variable, and in what way do they–indicated by the magnitude and sign of the beta estimates–impact the outcome variable?
+15-There are two main branches of statistics
+- Inferential Statistic.
+- Descriptive Statistic.
