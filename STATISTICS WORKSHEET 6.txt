@@ -1,0 +1,12 @@
+1-B
+2-C
+3-A
+4-A
+5-C
+9-A
+10-Bayes' Theorem is a simple mathematical formula used for calculating conditional probabilities. It figures prominently in subjectivist or Bayesian approaches to epistemology, statistics, and inductive logic. Subjectivists, who maintain that rational belief is governed by the laws of probability, lean heavily on conditional probabilities in their theories of evidence and their models of empirical learning. Bayes' Theorem is central to these enterprises both because it simplifies the calculation of conditional probabilities and because it clarifies significant features of subjectivist position. Indeed, the Theorem's central insight — that a hypothesis is confirmed by any body of data that its truth renders probable — is the cornerstone of all subjectivist methodology.
+11-A Z-score is a numerical measurement that describes a value's relationship to the mean of a group of values. Z-score is measured in terms of standard deviations from the mean. If a Z-score is 0, it indicates that the data point's score is identical to the mean score. A Z-score of 1.0 would indicate a value that is one standard deviation from the mean. Z-scores may be positive or negative, with a positive value indicating the score is above the mean and a negative score indicating it is below the mean.
+12-A t-test is a type of inferential statistic used to determine if there is a significant difference between the means of two groups, which may be related in certain features. It is mostly used when the data sets, like the data set recorded as the outcome from flipping a coin 100 times, would follow a normal distribution and may have unknown variances. A t-test is used as a hypothesis testing tool, which allows testing of an assumption applicable to a population. 
+13- a percentile (or a centile) is a type of quantile which divides the given probability distribution, or sample, into 100 equal-sized intervals; this allows the data to be analyzed in terms of percentages. For example, the 20th percentile is the value (or score) below which 20% of the observations are found, and above which 80% are found.
+14-Analysis of variance (ANOVA) is an analysis tool used in statistics that splits an observed aggregate variability found inside a data set into two parts: systematic factors and random factors. 
+15-It help you to figure out if you need to reject the null hypothesis or accept the alternate hypothesis.
