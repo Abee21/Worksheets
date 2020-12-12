@@ -1,0 +1,20 @@
+1-SELECT * FROM movie;
+2-FROM  movie WHERE mov_time=(SELECT MAX(mov_time) FROM movie);
+3-
+FROM movie SELECT movie_title,WHERE movie_revenu=(SELECT MAX(movie_revenu) FROM movie);
+5-SELECT a.act_fname, a.act_lname
+FROM movie_cast c JOIN actor a ON
+c.act_id = a.act_id
+Where mov_id = (
+SELECT mov_id
+FROM movie
+Where mov_title = 'PK');
+
+6-SELECT a.country_id, a.country, b.city_id, b.city FROM country a INNER JOIN city b ON a.country_id = b.country_id;
+7-SELECT gen_title, AVG(mov_time), COUNT(gen_title) 
+FROM movie
+NATURAL JOIN  movie_genres
+NATURAL JOIN  genres
+GROUP BY gen_title;
+8-FROM movie 
+NATURAL JOIN languages
