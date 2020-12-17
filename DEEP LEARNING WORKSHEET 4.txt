@@ -1,0 +1,32 @@
+1-A
+2-B
+3-B
+4-D
+5-A
+6-
+7-C=((I-F+2P)/S)+1
+I = 32
+F=8
+S=2
+P-0 ( No padding)
+c=((32-8+0)/2)+1
+c=13
+
+Ans- D
+
+9-C
+
+12- A Convolutional Neural Network (CNN) is a deep learning algorithm that can recognize and classify features in images for computer vision.
+  Role of CNN -
+  1-A convolution tool that splits the various features of the image for analysis.
+  2-A fully connected layer that uses the output of the convolution layer to predict the best description for the image.
+
+13-Average Pooling: Calculate the average value for each patch on the feature map.
+Maximum Pooling (or Max Pooling): Calculate the maximum value for each patch of the feature map.
+
+14-Padding-It refers to the amount of pixels added to an image when it is being processed by the kernel of a CNN.
+
+15-CNNs have an input layer, and output layer, and hidden layers. The hidden layers usually consist of convolutional layers, ReLU layers, pooling layers, and fully connected layers.
+Convolutional layers apply a convolution operation to the input. This passes the information on to the next layer.
+Pooling combines the outputs of clusters of neurons into a single neuron in the next layer.
+Fully connected layers connect every neuron in one layer to every neuron in the next layer.
